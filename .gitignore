@@ -1,0 +1,64 @@
+# ==========================================================
+# .gitignore - Projeto TOTVS / Protheus (TLPP / AdvPL)
+# ==========================================================
+
+# --- Arquivos sensíveis / credenciais ---
+artefatos/googleapi_cert.rem
+*.rem
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+
+# --- Compilados / objetos TLPP-AdvPL ---
+*.ppo
+*.ppx
+*.aex
+*.apo
+*.obj
+*.exe
+*.dll
+*.map
+
+# --- Saídas e logs ---
+*.log
+*.tmp
+*.bak
+*.old
+/out/
+/build/
+/dist/
+/logs/
+
+# --- VSCode / TDS (TOTVS Developer Studio) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+.tds/
+*.code-workspace
+.metadata/
+.settings/
+.classpath
+.project
+.launchConfig
+appserver.ini
+
+# --- Sistema operacional ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# --- Diversos ---
+*.swp
+*~
+node_modules/
+launch.json
+settings.json
+.claude/*
